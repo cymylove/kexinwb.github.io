@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "GIT使用"
-description: "git usage"
-category: tools
-tags: [git, git撤销]
+title: GIT使用
+date: 2013-04-09 16:05:39
+category: "tools"
 ---
-{% include JB/setup %}
 
 git作为分布式的版本控制系统，与传统的集中式版本控制系统到底有什么不同。
 ###Git原理###

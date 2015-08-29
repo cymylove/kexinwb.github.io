@@ -1,12 +1,9 @@
 ---
 layout: post
-title: "[译]cassandra介绍"
-description: "git usage"
-category: DB
-tags: [cassandra, nosql]
+title: GIT使用
+date: 2013-04-10 16:05:39
+category: "apache"
 ---
-{% include JB/setup %}
-
 
 Apache Cassandra 是一个开源的，分布式的，无中心的，具有弹性并且可以扩展性，高可用性，容错性，一致性可调，面向列的数据库。
 
