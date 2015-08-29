@@ -39,10 +39,10 @@ timezone:      null
 
 
 #Site config
-title: 9leg
-description: java技术文章
+title: 小盗空间
+description: 小盗的blog文章
 keywords: Java
-url: http://9leg.com
+url: http://kexinwb.github.io
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
@@ -61,13 +61,13 @@ nav:
 
 #Author config
 author:
-    name: zhujiajun
-    email: zhujiajun.me@gmail.com
+    name: paul
+    email: kexinwb@gmail.com
     imageLink: /images/header.jpg
-    simpleIntro: I Have a Dream
+    simpleIntro: 奋斗滴小盗...
     detailIntro:
-      <p>高中时期天赋技能选错,接触了电脑编程,一发不可收拾,成了程序员一枚.</p>
-      <p>主要使用Java,会一点Android,正在学习Scala.</p>
+      <p>大学时期天赋技能点点错了,进入了编程专业,一发不可收拾,成了一只程序猿.</p>
+      <p>使用Java,目前做云计算管理，主要负责维护开发工作流，目前正在学习掌握openstack</p>
       <p></p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
@@ -76,18 +76,20 @@ follow:
     url: /atom.xml
   - class: icon-weibo
     url: http://weibo.com/
+  - class: icon-github-alt
+    url: https://github.com/kexinwb/
   - class: icon-facebook
     url: http://facebook.com/
-  - class: icon-github-alt
-    url: https://github.com/zJiaJun/
   - class: icon-twitter
     url: http://twitter.com/
   - class: icon-google-plus
-    url: https://plus.google.com/116595571760191938657/about
+    url: https://plus.google.com/
 
 #Links
 customLinks:
   - item:
+    - text: OpenStack
+      url: http://www.openstack.org/
     - text: 技术小黑屋
       url: http://droidyue.com/
     - text: Jekyll
@@ -100,8 +102,8 @@ customLinks:
       url: http://www.javacodegeeks.com/
     - text: Web Developer
       url: http://www.fromdev.com/
-    - text: BeginnersBook
-      url: http://beginnersbook.com/
+    - text: Infoq
+      url: http://www.infoq.com/
     - text: Mkyong
       url: http://www.mkyong.com/
     - text: Java By Nataraj
@@ -111,21 +113,21 @@ customLinks:
 #googleAnaly, your id link UA-12345678-X
 googleAnaly:
   config: false
-  id: UA-58146229-1
+  id: UA-40467043-1
 
 #baidu tongji
 baiduTongji:
   config: true
-  id: c12b560f0372d5995701449b9eac606c
+  id: 65d8822054af9630ed6638d00d8744f7
 
 #comment config
 disqus:
   config: false
-  id: piznblog
+  id: kexinwb
 
 duoshuo:
   config: true
-  id: 9leg
+  id: kexinwb
 
 #baidu share config
 baiduShare:
