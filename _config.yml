@@ -42,7 +42,7 @@ timezone:      null
 title: 小盗空间
 description: 小盗的blog文章
 keywords: Java
-url: http://kexinwb.github.io
+url: http://127.0.0.1:4000
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
@@ -67,8 +67,8 @@ author:
     simpleIntro: 奋斗滴小盗...
     detailIntro:
       <p>大学时期天赋技能点点错了,进入了编程专业,一发不可收拾,成了一只程序猿.</p>
-      <p>使用Java,目前做云计算管理，主要负责维护开发工作流，目前正在学习掌握openstack</p>
-      <p></p>
+      <p>主要使用Java，目前正在学习掌握openstack中ing</p>
+      <p>目前做云计算管理，主要负责工作流框架</p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
@@ -90,13 +90,13 @@ customLinks:
   - item:
     - text: OpenStack
       url: http://www.openstack.org/
-    - text: 技术小黑屋
-      url: http://droidyue.com/
     - text: Jekyll
       url: http://jekyllrb.com
-    - text: Jekyll Theme
-      url: http://www.zhanxin.info/themes.html
-    message: Friends    
+    - text: 青衣秀士
+      url: http://hqingyi.github.io/
+    - text: vonnyfly
+      url: http://vonnyfly.github.io/
+    message: Friends
   - item:
     - text: Java Code Geeks
       url: http://www.javacodegeeks.com/

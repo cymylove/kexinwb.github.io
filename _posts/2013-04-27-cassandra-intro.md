@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GIT使用
+title: Apache Cassandra介绍
 date: 2013-04-10 16:05:39
 category: "apache"
 ---
