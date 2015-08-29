@@ -42,7 +42,7 @@ timezone:      null
 title: 小盗空间
 description: 小盗的blog文章
 keywords: Java
-url: http://127.0.0.1:4000
+url: http://kexinwb.github.io/
 feed: /atom.xml
 favicon: /images/shortcut.jpg
 
