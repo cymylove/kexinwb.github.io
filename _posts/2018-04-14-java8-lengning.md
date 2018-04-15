@@ -2,7 +2,7 @@
 layout: post
 title: 写给大忙人的JavaSE8读书笔记（一）Lambda表达式
 date: 2018-04-05 21:05:39
-category: "java","Lambda表达式"
+category: "Lambda表达式"
 ---
 
 ##Lambda表达式
