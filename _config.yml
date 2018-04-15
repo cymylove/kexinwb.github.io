@@ -1,135 +1,67 @@
-# Where things are
-source:       .
-destination:  ./_site
-plugins:      ./_plugins
-layouts:      ./_layouts
-paginate:     8
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: 奋斗的小盗
+email: kexinwb@gmail.com
+description: paul's blog,powered by jekyll.
+url: https://kexinwb.github.io # the base hostname & protocol for your site
+keywords: ["Programming", "Java", "IaaS","Blog"]
 
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-textile_ext:  "textile"
+#
+###################################
+# Jekyll configuration
+####################################
+#
+#timezone:          Asia/Shanghai
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
 
-# Filtering Content
-show_drafts:  null
-limit_posts:  0
-future:       true
-unpublished:  false
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
 
-# Conversion
-markdown:     kramdown
-highlighter:  pygments
-lsi:          false
-excerpt_separator: "\n\n"
-
-# Serving
-detach:       false
-port:         4000
-host:         127.0.0.1
-baseurl:      "" # does not include hostname
-
-# Outputting
-permalink:     date
-paginate_path: /page:num
-timezone:      null
-
-
-#Site config
-title: 小盗空间
-description: 小盗的blog文章
-keywords: Java
-url: http://kexinwb.github.io/
-feed: /atom.xml
-favicon: /images/shortcut.jpg
-
-#Nav config
-nav:
-  - text: 首页
-    url: /index.html
-  - text: 分类目录 
-    url: /categories.html
-  - text: 文章归档
-    url: /archives.html
-  - text: 关于我
-    url: /about.html
-  - text: 友情链接
-    url: /links.html
-
-#Author config
-author:
-    name: paul
-    email: kexinwb@gmail.com
-    imageLink: /images/header.jpg
-    simpleIntro: 奋斗滴小盗...
-    detailIntro:
-      <p>大学时期天赋技能点点错了,进入了编程专业,一发不可收拾,成了一只程序猿.</p>
-      <p>主要使用Java，目前正在学习掌握openstack中ing</p>
-      <p>目前做云计算管理，主要负责工作流框架</p>
-
-#Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
-follow:
-  - class: icon-rss
-    url: /atom.xml
-  - class: icon-weibo
-    url: http://weibo.com/
-  - class: icon-github-alt
-    url: https://github.com/kexinwb/
-  - class: icon-facebook
-    url: http://facebook.com/
-  - class: icon-twitter
-    url: http://twitter.com/
-  - class: icon-google-plus
-    url: https://plus.google.com/
-
-#Links
-customLinks:
-  - item:
-    - text: OpenStack
-      url: http://www.openstack.org/
-    - text: Jekyll
-      url: http://jekyllrb.com
-    - text: 青衣秀士
-      url: http://hqingyi.github.io/
-    - text: vonnyfly
-      url: http://vonnyfly.github.io/
-    message: Friends
-  - item:
-    - text: Java Code Geeks
-      url: http://www.javacodegeeks.com/
-    - text: Web Developer
-      url: http://www.fromdev.com/
-    - text: Infoq
-      url: http://www.infoq.com/
-    - text: Mkyong
-      url: http://www.mkyong.com/
-    - text: Java By Nataraj
-      url: http://javabynataraj.blogspot.in/
-    message: About Java
-
-#googleAnaly, your id link UA-12345678-X
-googleAnaly:
-  config: false
-  id: UA-40467043-1
-
-#baidu tongji
-baiduTongji:
-  config: false
-  id: 65d8822054af9630ed6638d00d8744f7
-
-#comment config
-disqus:
-  config: false
-  id: kexinwb
-
-duoshuo:
-  config: false
-  id: kexinwb
-
-#baidu share config
-baiduShare:
-  config: false
-  
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: 奋斗的小盗
+  avatar: avatar.jpg
+  job: "Java & Developer"
+  bio: "A backend developer who loves design awesome things."
+  email: kexinwb@gmail.com
+  disqus-shortname: #username
+  twitter:  #username
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-40467043-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: kexinwb #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+  telegram: #username

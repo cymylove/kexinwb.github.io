@@ -1,0 +1,10 @@
+# updates data
+- date: 2017-10-28
+  description:
+    - desc: Add Updates page
+
+- date: 2017-10-27
+  description:
+    - desc: Initialize Blog
+    - desc: Modify basic configuration
+

@@ -1,0 +1,11 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: huawei
+  link: https://www.huaweicloud.com/
+  date: Jan 2014 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Java Developer
+
+- name: yonyou
+  link: http://www.yonyou.com/
+  date: Mar 2012 - Jan 2014
+  job: Java Developer
