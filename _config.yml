@@ -117,7 +117,7 @@ googleAnaly:
 
 #baidu tongji
 baiduTongji:
-  config: true
+  config: false
   id: 65d8822054af9630ed6638d00d8744f7
 
 #comment config
@@ -126,10 +126,10 @@ disqus:
   id: kexinwb
 
 duoshuo:
-  config: true
+  config: false
   id: kexinwb
 
 #baidu share config
 baiduShare:
-  config: true
+  config: false
   
