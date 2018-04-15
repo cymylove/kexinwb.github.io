@@ -6,7 +6,7 @@ category: "Lambda表达式"
 tags: [java]
 ---
 
-##Lambda表达式
+#### Lambda表达式
 
 含义：什么是Lambda表达式？
 lambda表达式在Java中就是一段匿名函数的代码。函数式编程中这段代码叫做函数。跟java原有的匿名内部类很像，但是实现原理和代码简洁性匿名内部类好。这段代码在Java8中通过一个java.lang.function包中的Function接口进行定义（函数式接口）
@@ -50,7 +50,7 @@ lambda表达式在Java中就是一段匿名函数的代码。函数式编程中�
 
 注意：延迟执行不是说代码是异步执行。
 
-###函数式接口
+#### 函数式接口
 只包含一个抽象方法的接口叫做函数式接口，可以认为Java中所有的Lambda表达式都是某种函数式接口的实例。函数式接口是Java lambda表达式的模型定义。函数式接口通常用：@FunctionalInterface注解。
 
 注意：
