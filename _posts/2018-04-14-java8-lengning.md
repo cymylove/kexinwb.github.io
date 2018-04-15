@@ -16,6 +16,7 @@ lambda表达式在Java中就是一段匿名函数的代码。函数式编程中�
 	file.listFiles(d -> d.isDirectory())
     //or
     file.listFiles(File::isDirectory)
+	
 没有lambda表达式时，写法为：
 
     file.listFiles(new FileFilter() {
@@ -58,9 +59,11 @@ java是强类型语言，如果将一个lambda代码块赋值个一个函数式�
 比如，你可以将如下代码：
     
 	Runnable fPrint = {()->System.out.print("XXXX");};
+	
 赋值给Runnable接口变量，fPrint，但是如果lambda表达式会抛出异常，该赋值就会报错。如：
 
     Runnable fPrint = {()->System.out.print("xxx");Thread.sleep(1000);};
+	
 需要用Callable<Void>接口进行声明：
 
 	Callable<Void> fPrint = {()->System.out.print("xxx");Thread.sleep(1000);};
