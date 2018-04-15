@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 写给大忙人的JavaSE8读书笔记（一）Lambda表达式
+title: 写给大忙人看的JavaSE8读书笔记（一）Lambda表达式
 date: 2018-04-05 21:05:39
 category: "Lambda表达式"
 tags: [java]
@@ -8,7 +8,7 @@ tags: [java]
 
 ##Lambda表达式
 
-含义：什么是Lambda表达？
+含义：什么是Lambda表达式？
 lambda表达式在Java中就是一段匿名函数的代码。函数式编程中这段代码叫做函数。跟java原有的匿名内部类很像，但是实现原理和代码简洁性匿名内部类好。这段代码在Java8中通过一个java.lang.function包中的Function接口进行定义（函数式接口）
 比如：我们获取文件目录下子目录时，传入FileFilter通常用Lambda表达式写法为：
      
