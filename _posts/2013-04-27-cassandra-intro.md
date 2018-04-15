@@ -3,6 +3,7 @@ layout: post
 title: Apache Cassandra介绍
 date: 2013-04-10 16:05:39
 category: "apache"
+tags: [cassandra,nosql]
 ---
 
 Apache Cassandra 是一个开源的，分布式的，无中心的，具有弹性并且可以扩展性，高可用性，容错性，一致性可调，面向列的数据库。

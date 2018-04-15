@@ -3,6 +3,7 @@ layout: post
 title: GIT使用
 date: 2013-04-09 16:05:39
 category: "tools"
+tags: [git]
 ---
 
 git作为分布式的版本控制系统，与传统的集中式版本控制系统到底有什么不同。
